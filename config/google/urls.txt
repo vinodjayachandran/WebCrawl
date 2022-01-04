@@ -1,0 +1,2 @@
+# One Url per line
+https://www.google.com/finance/quote/AMZN:NASDAQ
