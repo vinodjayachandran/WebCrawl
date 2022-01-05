@@ -1,0 +1,14 @@
+{ "companyName" : {
+    "tagName" :  "div",
+    "attributes": {"class": "zzDege","role":"heading", "aria-level":"1"}
+    },
+    "price" : {
+        "tagName" : "div",
+        "attributes": {"class": "YMlKec fxKbKc"}
+    },
+    "previousClose" : {
+        "tagName" : "div",
+        "attributes": {"class": "P6K39c"}
+    }
+
+}

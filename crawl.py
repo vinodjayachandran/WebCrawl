@@ -11,12 +11,12 @@ class Crawl:
             Path(outputDirectory).mkdir(parents=True, exist_ok=True)
             req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
             response = urlopen(req)
-            fileName = url[url.rfind("/")+1:len(url)]
-            htmlFile = open(outputDirectory + "/" +fileName+".html", 'w')
+            #fileName = url[url.rfind("/")+1:len(url)]
+            #htmlFile = open(outputDirectory + "/" +fileName+".html", 'w')
             htmlContent = response.read().decode("utf-8")
-            htmlFile.write(htmlContent)
-            htmlFile.close()
-            print(f"{url} crawled successfully and saved at {htmlFile.name}")
+            #htmlFile.write(htmlContent)
+            #htmlFile.close()
+            #print(f"{url} crawled successfully and saved at {htmlFile.name}")
             return htmlContent
         except Exception as e:
             print(f'Crawl for {url} has failed' + str(e))
