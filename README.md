@@ -1,5 +1,6 @@
 # WebCrawl
-Crawls a list of URLs and provide HTML content
+Crawls multiple URLs -> Download their HTML content -> Extract info and save it as JSON
+
 
 ### Limitations
 1. Doesn't Crawl pages which needs user login
@@ -20,3 +21,4 @@ Crawls a list of URLs and provide HTML content
 3. [ ] Add capability to run the script from serverless architecture such as AWS lambda
 
 
+> PRs for above To Dos and new ideas are welcome :smiley:
